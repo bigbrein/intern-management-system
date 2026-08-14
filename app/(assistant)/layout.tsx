@@ -1,11 +1,13 @@
-export default function SupervisorLayout({
+export default function EmployeeLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <>
-      <header>Supervisor</header>
+      <header>
+        <h1>Employee Portal</h1>
+      </header>
       <main>{children}</main>
     </>
   );
